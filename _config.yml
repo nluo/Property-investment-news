@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Property Investment News
 subtitle:
 description:
-author: John Doe
+author: Nick Luo
 language:
-timezone:
+timezone: AEST
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://propertyinvestment.news
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,4 +68,5 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: git@github.com:nluo/property-investment-news.git
